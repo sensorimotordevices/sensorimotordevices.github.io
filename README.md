@@ -1,7 +1,10 @@
-**_[UIST 2024](https://uist.acm.org/2024) Workshop - CMU (Pittsburgh), Oct 13_**
+**_[CHI 2025](https://uist.acm.org/2024) Workshop - Yokohama, Japan_**
 
-[Cedric Honnet](https://honnet.eu) (MIT), [Catherine Yu](http://CatherineYu.com) (Cornell), [Irmandy Wicaksono](http://IrmandyW.com) (MIT), [Tingyu Cheng](http://TingyuCheng.com) (Georgia Tech), \
-[Andreea Danielescu](http://Antilipsi.ai) (Accenture Labs), [Cheng Zhang](http://CZhang.org) (Cornell), [Stefanie Mueller](http://hcie.csail.mit.edu/stefanie-mueller) (MIT), [Joe Paradiso](http://paradiso.media.mit.edu) (MIT), [Yiyue Luo](http://YyueLuo.com) (MIT-UW).
+# Coupling Sensing and Actuation to Augment Bodily Experience
+
+- [Paul Strohmeier](https://honnet.eu) (Max Planck Institute for Informatics, Germany)
+- [Alex Mazursky](https://honnet.eu) (University of Chicago, US)
+- 
 
 ![banner](https://github.com/user-attachments/assets/71486ce1-8ce5-45b0-9e0b-b36d5acf2886)
 _Illustrating the breadth of wearable research, from materials science (1), to energy harvesting (2), haptics for spacesuits (3), sustainable devices (4), to knitted neural networks (5)._
@@ -15,11 +18,8 @@ _Illustrating the breadth of wearable research, from materials science (1), to e
 
 ---
 
-## News 📢
 
-### 1) The schedule is up!
-(more details [below](https://softwearables.github.io/#schedule-details))
-
+## Schedule
 | Time     | Duration | Event                                              |
 | -------- | -------- | -------------------------------------------------- |
 | 8:00 AM  | 1 h 00   | Registrations start                                |
@@ -35,7 +35,7 @@ _Illustrating the breadth of wearable research, from materials science (1), to e
 
 ---
 
-### 2) Keynote Abstracts
+## Keynote Abstracts
 
 - _Scott Hudson_
 
@@ -62,24 +62,21 @@ As time permits, I will also show how these EGaIn-based architectures can be ext
 
 <hr/>
 
-# Details about the workshop
+# About the workshop
 
 ## Keywords
-Wearables, Applied Machine Learning, e-Textiles, Personal Fabrication, Sensing, Actuation, Materials Sciences, Energy Harvesting.
-
+sensorimotor interaction, wearables, feedback systems, motion-coupled feedback
 
 ## Abstract
+An emerging space in interfaces research are wearable devices that closely couple their sensing and actuation abilities. A well-known example is MetaLimbs, where sensed movements of the foot are directly mapped to the actuation of supernumerary robotic limbs. These systems are different from wearables focused on sensing, such as fitness trackers, or wearables focused on actuation, such as VR headsets. They are characterized by tight coupling between the user's action and the resulting digital feedback from the device, in time, space, and mode. The properties of this coupling are critical for the user's experience, including the user's sense of agency, body ownership, and experience of the surrounding world. Understanding such systems is an open challenge, which requires knowledge not only of computer science and HCI, but also Psychology, Physiology, Design, Engineering, Cognitive Neuroscience, and Control Theory. This workshop aims to foster discussion between these diverse disciplines and to identify links and synergies in their work, ultimately developing a common understanding of future research directions for systems that intrinsically couple sensing and action.
 
-Wearables have long been integral to human culture and daily life.  Recent advances in intelligent soft wearables have dramatically transformed how we interact with the world, enhancing our health, productivity, and overall well-being. These innovations, combining advanced sensor design, fabrication, and computational power, offer unprecedented opportunities for monitoring, assistance, and augmentation. However, the benefits of these advancements are not yet universally accessible. Economic and technical barriers often limit the reach of these technologies to domain-specific experts. There is a growing need for democratizing intelligent wearables that are scalable, seamlessly integrated, customized, and adaptive. By bringing researchers from relevant disciplines together, this workshop aims to identify the challenges and investigate opportunities for democratizing intelligent soft wearables within the HCI community via interactive demos, invited keynotes, and focused panel discussions.
 
+## Background
+Wearable technology is maturing at an accelerated pace with advances in technologies such as the miniaturization of electrical components, developments of soft electrically functional materials, etc. With less effort required for understanding \textit{how} to build wearable technologies, we are witnessing a shift towards exploring \textit{what} opportunities arise from having technology so conveniently close to the body.
 
-## Introduction
+In the mainstream, devices typically focus on a specific task and can roughly be classified as either sensing devices, such as fitness trackers which sample information \textit{from} the user, or actuation devices, such as virtual reality headsets, which provide information \textit{to} the user. Many devices, such as smartwatches, combine sensing and actuating mechanisms. However, even in these devices, the actuation and sensing modalities are decoupled in time (e.g., the delay between input and output), location (e.g., input and output are not co-located), or mode (e.g., touch input vs. visual output). 
 
-Recent developments in materials science, digital fabrication, and applied machine learning have enabled significant advances in intelligent soft wearables. At the intersection of wearable technology and applied artificial intelligence, these wearables seamlessly integrate functionalities with the human body, serving as conformal sensing and actuation interfaces, and unobtrusively extract information and generate optimal feedback combined with advanced computational techniques. Some research efforts have been prioritizing functionality over conformability, either for sensing [2, 7, 10, 24] or actuation [4, 22, 25], but we propose to further investigate soft interfaces that conform to the body. They have already served as interactive interfaces [1, 8, 19, 23, 28], behavior monitoring and learning systems [13, 27, 29, 30], assistive wearables [5, 11, 14], human augmentation [9, 12, 18, 21], and entertainment [3, 6, 16, 20, 26], demonstrating great potential in HCI, healthcare, AR/VR, robotics, and space, among other applications.
-
-However, despite their significant potential, most current intelligent wearables are still localized to specific parts of the body, function for only short periods, and are tailored to specific users and scenarios (as in ElectroDermis [15] or SmartSleeve[17]). Additionally, the design, fabrication, and application of intelligent soft wearables generally require domain-specific knowledge and interdisciplinary integration.
-
-In this workshop, we aim to analyze the challenges and explore the opportunities in the democratization of such intelligent soft wearables, enabling them to be scalable, robust, customizable, and adaptive. The structure of the workshop is designed to maximize engagement through a combination of keynotes, interactive demos, group discussions, and expert panels.
+In contrast, an emerging research direction is wearable systems in which sensing and actuation are closely coupled. In other words, the sensing and actuation are synchronous, co-located, of the same mode, and with a temporal behavior enabling integration with the user's sensory and motor abilities. A striking example is MetaLimbs, a wearable system that provides users with an additional pair of arms \cite{metalimbs}. Here, the user's foot movement is sensed in real-time and directly mapped to the movements of the robotic arm. Sensing and actuation are coupled and cannot be separated. Such systems of coupled sensing and actuation mechanisms have been used to provide augmented haptic realities \cite{bARefoot, pulseTrains}, change our perception of our bodies \cite{As_Light_as, arm_dimensions, Soniband}, or influence the perceived agency over our actions \cite{preemptive}. The trend towards such systems is both driven by technological opportunity and by an increasingly sophisticated understanding of the sensorimotor processes underlying our day-to-day experiences.
 
 ## Scope: Goals & Topics
 
