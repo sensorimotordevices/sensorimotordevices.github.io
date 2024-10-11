@@ -33,15 +33,15 @@ This one-day workshop offers an interdisciplinary forum for academics and practi
 We invite potential participants to share 1-3 relevant technologies or experiences (to be discussed in pre-workshop brainstorming). Each should be presented in a self-contained manner, together with a description of its relevance. Examples by other researchers should be appropriately cited and contextualized with thoughtful commentary. Please also indicate the possibility of bringing chosen examples as physical demos to the workshop, and a short biography of the participant(s).
 
 * Submissions should be 2-5 pages long (incl. references) using the CHI Extended Abstracts format and submitted as non-anonymized PDF.
-* The deadline for submission is February 28, 2023, midnight AoE.
-* Quality submissions will be selected by the workshop team to ensure a diversity of disciplines, backgrounds, and career stages. We will notify applicants by March 10, 2023.
+* The deadline for submission is February 13, 2025, midnight AoE.
+* Quality submissions will be selected by the workshop team to ensure a diversity of disciplines, backgrounds, and career stages. We will notify applicants by March 10, 2025.
 
 
 ## Important dates
 
-> Submission deadline: February 28,2023 AoE
+> Submission deadline: February 13, 2025 AoE
 > 
-> Notification: March 10, 2023 AoE
+> Notification: March 10, 2025 AoE
 
 # Schedule
 
