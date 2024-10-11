@@ -4,7 +4,8 @@ layout: default
 
 # About our workshop
 
-An emerging space in interfaces research are wearable devices that closely couple their sensing and actuation abilities. A well-known example is MetaLimbs, where sensed movements of the foot are directly mapped to the actuation of supernumerary robotic limbs. These systems are different from wearables focused on sensing, such as fitness trackers, or wearables focused on actuation, such as VR headsets. They are characterized by tight coupling between the user's action and the resulting digital feedback from the device, in time, space, and mode. The properties of this coupling are critical for the user's experience, including the user's sense of agency, body ownership, and experience of the surrounding world. Understanding such systems is an open challenge, which requires knowledge not only of computer science and HCI, but also Psychology, Physiology, Design, Engineering, Cognitive Neuroscience, and Control Theory. This workshop aims to foster discussion between these diverse disciplines and to identify links and synergies in their work, ultimately developing a common understanding of future research directions for systems that intrinsically couple sensing and action.
+An emerging space in interfaces research are wearable devices that closely couple their sensing and actuation abilities. A well-known example is MetaLimbs, where sensed movements of the foot are directly mapped to the actuation of supernumerary robotic limbs. These systems are different from wearables focused on sensing, such as fitness trackers, or wearables focused on actuation, such as VR headsets. They are characterized by tight coupling between the user's action and the resulting digital feedback from the device, in time, space, and mode. The properties of this coupling are critical for the user's experience, including the user's sense of agency, body ownership, and experience of the surrounding world. Understanding such systems is an open challenge, which requires knowledge not only of computer science and HCI, but also Psychology, Physiology, Design, Engineering, Cognitive Neuroscience, and Control Theory. 
+**This workshop aims to foster discussion between these diverse disciplines and to identify links and synergies in their work, ultimately developing a common understanding of future research directions for systems that intrinsically couple sensing and action.**
 
 # Call for Participation
 
@@ -12,12 +13,16 @@ An emerging research direction are wearable systems in which sensing and actuati
 
 This one-day workshop offers an interdisciplinary forum for academics and practitioners to discuss opportunities, challenges, and long-term visions in this space. We intend to identify:
 
-- Artifacts, systems, and interfaces that closely couple sensing and actuation to augment bodily experience (e.g., wearables, haptics, tangibles, e-textiles)
-- Share methodological and theoretical grounding, as well as recognizing where these differ.
-- Shared grounding across disciplines, including methods and metrics for validating "success"
-- Opportunities and insights in this area, aiming to support researchers at various career stages.
+* Artifacts, systems, and interfaces that closely couple sensing and actuation to augment bodily experience (e.g., wearables, haptics, tangibles, e-textiles)
+* Share methodological and theoretical grounding, as well as recognizing where these differ.
+* Shared grounding across disciplines, including methods and metrics for validating "success"
+* Opportunities and insights in this area, aiming to support researchers at various career stages.
 
-We invite potential participants to share 1-3 relevant technologies or experiences (to be discussed in pre-workshop brainstorming). Each should be presented in a self-contained manner, together with a description of its relevance. Examples by other researchers should be appropriately cited and contextualized with thoughtful commentary. Please also indicate the possibility of bringing chosen examples as physical demos to the workshop, and a short biography of the participant(s). Submissions should be 2-5 pages long (incl. references) using the CHI Extended Abstracts format and submitted as non-anonymized PDF. The deadline for submission is February 28, 2023, midnight AoE. Quality submissions will be selected by the workshop team to ensure a diversity of disciplines, backgrounds, and career stages. We will notify applicants by March 10, 2023.
+We invite potential participants to share 1-3 relevant technologies or experiences (to be discussed in pre-workshop brainstorming). Each should be presented in a self-contained manner, together with a description of its relevance. Examples by other researchers should be appropriately cited and contextualized with thoughtful commentary. Please also indicate the possibility of bringing chosen examples as physical demos to the workshop, and a short biography of the participant(s).
+
+* Submissions should be 2-5 pages long (incl. references) using the CHI Extended Abstracts format and submitted as non-anonymized PDF.
+* The deadline for submission is February 28, 2023, midnight AoE.
+* Quality submissions will be selected by the workshop team to ensure a diversity of disciplines, backgrounds, and career stages. We will notify applicants by March 10, 2023.
 
 
 ## Important dates
@@ -77,12 +82,7 @@ end
 ### There's a horizontal rule below this.
 * * *
 
-### Here is an unordered list:
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
 
 ### And an ordered list:
 
