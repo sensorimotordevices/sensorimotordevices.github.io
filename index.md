@@ -6,9 +6,6 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
 
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 # About our workshop
 
@@ -16,15 +13,24 @@ An emerging space in interfaces research are wearable devices that closely coupl
 
 # Call for Participation
 
-# Header 1
+An emerging research direction are wearable systems in which sensing and actuation are synchronous, co-located, of the same mode, and with a temporal behavior, enabling integration with the user’s sensory and motor abilities. Such coupling opens exciting new opportunities for user experience, agency, and body ownership.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+This one-day workshop offers an interdisciplinary forum for academics and practitioners to discuss opportunities, challenges, and long-term visions in this space. We intend to identify:
 
-## Header 2
+- Artifacts, systems, and interfaces that closely couple sensing and actuation to augment bodily experience (e.g., wearables, haptics, tangibles, e-textiles)
+- Share methodological and theoretical grounding, as well as recognizing where these differ.
+- Shared grounding across disciplines, including methods and metrics for validating "success"
+- Opportunities and insights in this area, aiming to support researchers at various career stages.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+We invite potential participants to share 1-3 relevant technologies or experiences (to be discussed in pre-workshop brainstorming). Each should be presented in a self-contained manner, together with a description of its relevance. Examples by other researchers should be appropriately cited and contextualized with thoughtful commentary. Please also indicate the possibility of bringing chosen examples as physical demos to the workshop, and a short biography of the participant(s). Submissions should be 2-5 pages long (incl. references) using the CHI Extended Abstracts format and submitted as non-anonymized PDF. The deadline for submission is February 28, 2023, midnight AoE. Quality submissions will be selected by the workshop team to ensure a diversity of disciplines, backgrounds, and career stages. We will notify applicants by March 10, 2023.
+
+
+## Important dates
+
+> Submission deadline: February 28,2023 AoE
+> 
+> Notification: March 10, 2023 AoE
+
 
 ### Header 3
 
