@@ -104,9 +104,11 @@ end
   - level 2 item
 - level 1 item
 
-### Small image
+# Organizers
+## Paul Strohmeier (Max Planck Institute for Informatics, Germany)
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+
+![paul_stromeier](https://sensint.mpi-inf.mpg.de/uploads/people/paul_glove_square.jpg)
 
 ### Large image
 
