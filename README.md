@@ -1,297 +1,116 @@
-**_[CHI 2025](https://uist.acm.org/2024) Workshop - Yokohama, Japan_**
+# The Cayman theme
 
-# Coupling Sensing and Actuation to Augment Bodily Experience
+[![.github/workflows/ci.yaml](https://github.com/pages-themes/cayman/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/cayman/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-cayman.svg)](https://badge.fury.io/rb/jekyll-theme-cayman)
 
-- [Paul Strohmeier](https://honnet.eu) (Max Planck Institute for Informatics, Germany)
-- [Alex Mazursky](https://honnet.eu) (University of Chicago, US)
-- 
+*Cayman is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/cayman), or even [use it today](#usage).*
 
-![banner](https://github.com/user-attachments/assets/71486ce1-8ce5-45b0-9e0b-b36d5acf2886)
-_Illustrating the breadth of wearable research, from materials science (1), to energy harvesting (2), haptics for spacesuits (3), sustainable devices (4), to knitted neural networks (5)._
+![Thumbnail of Cayman](thumbnail.png)
 
+## Usage
 
-## Links
+To use the Cayman theme:
 
-> **Workshop location: [CMU Gates Hillman Center](https://maps.app.goo.gl/h5DxjZ7drtKeC2My8) => room NSH 3305**
-> 
-> Contact us: <a href="mailto:SoftWearables(AT)mit.edu">SoftWearables(AT)mit.edu</a>
+1. Add the following to your site's `_config.yml`:
 
----
+    ```yml
+    remote_theme: pages-themes/cayman@v0.2.0
+    plugins:
+    - jekyll-remote-theme # add this line to the plugins list if you already have one
+    ```
 
+2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
 
-## Schedule
-| Time     | Duration | Event                                              |
-| -------- | -------- | -------------------------------------------------- |
-| 8:00 AM  | 1 h 00   | Registrations start                                |
-| 9:00 AM  | 0 h 15   | **Welcome and Introductions**                      |
-| 9:15 AM  | 1 h 00   | **Keynotes by [Scott Hudson](https://hcii.cmu.edu/people/scott-hudson) and [Carmel Madjidi](https://www.meche.engineering.cmu.edu/directory/bios/majidi-carmel.html)** |
-| 10:15 AM | 0 h 30   | Coffee Break                                       |
-| 10:45 AM | 1 h 15   | **Panel Discussion**                               |
-| 12:00 PM | 1 h 30   | Lunch Break                                        |
-| 1:30 PM  | 1 h 30   | **Spotlight and Demos**                            |
-| 3:00 PM  | 0 h 30   | Coffee Break                                       |
-| 3:30 PM  | 1 h 00   | **Group Discussion on Challenges & Opportunities** |
-| 4:30 PM  | 0 h 30   | **Closing Session**                                |
+    ```ruby
+    gem "github-pages", group: :jekyll_plugins
+    ```
 
----
+## Customizing
 
-## Keynote Abstracts
+### Configuration variables
 
-- _Scott Hudson_
+Cayman will respect the following variables, if set in your site's `_config.yml`:
 
-"Soft is Hard: Some thoughts on organizing the challenges, and starting on the work"
+```yml
+title: [The title of your site]
+description: [A short description of your site's purpose]
+```
 
-Abstract: Fabricating things which are soft is a very important goal for the HCI component of the computational fabrication community.  Soft objects have critically important attributes when considered for human use.  Soft material -- textiles in particular -- are the only material which we keep in contact with our bodies 99% of the day.  And there are good reasons why this is true.  But while there is a very long history of humans creating with these materials, they can be challenging to use in a computational fabrication context.  For example, they can be unruly to handle in a fabrication machine, and hard to model or simulate, compared to rigid materials.
-In this talk, I will first try to give some structure to the several different types of challenges we need to address in this area, and then turn to just a few specific exemplar projects I and my collaborators have undertaken within that structure.
+Additionally, you may choose to set the following optional variables:
 
+```yml
+show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
+google_analytics: [Your Google Analytics tracking ID]
+```
 
-- _Carmel Madjidi_
+### Stylesheet
 
-"Energy Harvesting for Battery-Free Soft Wearables"
+If you'd like to add your own custom styles:
 
-Abstract: Over the past decade, there’s been tremendous advancements in soft and highly stretchable circuitry for use in epidermal electronics for health monitoring, wearable computing, and soft robotics.
-As these technologies continue to improve, there is increasing interest in new material architectures for energy harvesting and battery-free operation.
-Several promising approaches leverage various sources of energy that are created by the body through repeated surface contact, kinetic motion, or heat.
-As with the sensors and circuits that they power, these energy harvesting transducers should be soft and stretchable so that they conform to the human body without causing discomfort or impairing natural motion.
-In this talk, I will present several methods for achieving fully battery-free functionality of soft wearable devices that rely on various energy harvesting modalities.
-Specifically, I will show how liquid metal alloys like eutectic gallium indium (EGaIn) can be used to produce soft material architectures that can convert body heat or limb motion into electricity using thermoelectric or triboelectric coupling, respectively.
-To demonstrate the practicality of these battery-free wearables, I will show how they can be used to power a variety of body-mounted electronic devices for temperature sensing, humidity sensing, pulse oximetry, signal processing, and wireless radio communication.
-As time permits, I will also show how these EGaIn-based architectures can be extended to other applications related to soft robotics and intelligent soft materials.
+1. Create a file called `/assets/css/style.scss` in your site
+2. Add the following content to the top of the file, exactly as shown:
+    ```scss
+    ---
+    ---
 
+    @import "{{ site.theme }}";
+    ```
+3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
 
+*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
 
-<hr/>
+### Layouts
 
-# About the workshop
+If you'd like to change the theme's HTML layout:
 
-## Keywords
-sensorimotor interaction, wearables, feedback systems, motion-coupled feedback
+1. For some changes such as a custom `favicon`, you can add custom files in your local `_includes` folder. The files [provided with the theme](https://github.com/pages-themes/cayman/tree/master/_includes) provide a starting point and are included by the [original layout template](https://github.com/pages-themes/cayman/blob/master/_layouts/default.html).
+2. For more extensive changes, [copy the original template](https://github.com/pages-themes/cayman/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
+3. Create a file called `/_layouts/default.html` in your site
+4. Paste the default layout content copied in the first step
+5. Customize the layout as you'd like
 
-## Abstract
-An emerging space in interfaces research are wearable devices that closely couple their sensing and actuation abilities. A well-known example is MetaLimbs, where sensed movements of the foot are directly mapped to the actuation of supernumerary robotic limbs. These systems are different from wearables focused on sensing, such as fitness trackers, or wearables focused on actuation, such as VR headsets. They are characterized by tight coupling between the user's action and the resulting digital feedback from the device, in time, space, and mode. The properties of this coupling are critical for the user's experience, including the user's sense of agency, body ownership, and experience of the surrounding world. Understanding such systems is an open challenge, which requires knowledge not only of computer science and HCI, but also Psychology, Physiology, Design, Engineering, Cognitive Neuroscience, and Control Theory. This workshop aims to foster discussion between these diverse disciplines and to identify links and synergies in their work, ultimately developing a common understanding of future research directions for systems that intrinsically couple sensing and action.
+### Customizing Google Analytics code
 
+Google has released several iterations to their Google Analytics code over the years since this theme was first created. If you would like to take advantage of the latest code, paste it into `_includes/head-custom-google-analytics.html` in your Jekyll site.
 
-## Background
-Wearable technology is maturing at an accelerated pace with advances in technologies such as the miniaturization of electrical components, developments of soft electrically functional materials, etc. With less effort required for understanding \textit{how} to build wearable technologies, we are witnessing a shift towards exploring \textit{what} opportunities arise from having technology so conveniently close to the body.
+### Overriding GitHub-generated URLs
 
-In the mainstream, devices typically focus on a specific task and can roughly be classified as either sensing devices, such as fitness trackers which sample information \textit{from} the user, or actuation devices, such as virtual reality headsets, which provide information \textit{to} the user. Many devices, such as smartwatches, combine sensing and actuating mechanisms. However, even in these devices, the actuation and sensing modalities are decoupled in time (e.g., the delay between input and output), location (e.g., input and output are not co-located), or mode (e.g., touch input vs. visual output). 
+Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
 
-In contrast, an emerging research direction is wearable systems in which sensing and actuation are closely coupled. In other words, the sensing and actuation are synchronous, co-located, of the same mode, and with a temporal behavior enabling integration with the user's sensory and motor abilities. A striking example is MetaLimbs, a wearable system that provides users with an additional pair of arms \cite{metalimbs}. Here, the user's foot movement is sensed in real-time and directly mapped to the movements of the robotic arm. Sensing and actuation are coupled and cannot be separated. Such systems of coupled sensing and actuation mechanisms have been used to provide augmented haptic realities \cite{bARefoot, pulseTrains}, change our perception of our bodies \cite{As_Light_as, arm_dimensions, Soniband}, or influence the perceived agency over our actions \cite{preemptive}. The trend towards such systems is both driven by technological opportunity and by an increasingly sophisticated understanding of the sensorimotor processes underlying our day-to-day experiences.
+1. Look at [the template source](https://github.com/pages-themes/cayman/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
+2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
+    ```yml
+    github:
+      zip_url: http://example.com/download.zip
+      another_url: another value
+    ```
+3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
 
-## Scope: Goals & Topics
+*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
 
-The democratization of intelligent soft wearables requires
-interdisciplinary efforts. In this workshop, we focus on the following
-research questions:
+For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
 
--   How do we effectively customize the form factor and functionalities
-    of intelligent soft wearables for diverse individuals with
-    significant differences in perception and needs?
+## Roadmap
 
--   How do we generalize the robust performance of intelligent soft
-    wearables across diverse users and usage scenarios?
+See the [open issues](https://github.com/pages-themes/cayman/issues) for a list of proposed features (and known issues).
 
--   How do we efficiently scale the design and fabrication of
-    intelligent soft wearable interfaces so that they can serve a
-    broader community?
+## Project philosophy
 
-The goal of our workshop includes:
+The Cayman theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
 
--   Bringing together researchers in the field to share their findings,
-    practices, and insights.
+## Contributing
 
--   Understanding the grand challenges in democratizing intelligent
-    wearables.
+Interested in contributing to Cayman? We'd love your help. Cayman is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
 
--   Investigating the opportunities and potential in democratizing
-    intelligent wearables from the design, fabrication, and
-    computational perspectives.
+### Previewing the theme locally
 
--   Fostering collaboration among researchers from various fields to
-    enrich the development of intelligent wearable devices for HCI
-    through diverse perspectives.
+If you'd like to preview the theme locally (for example, in the process of proposing a change):
 
-Topics of interest for the workshop include, for example:
+1. Clone down the theme's repository (`git clone https://github.com/pages-themes/cayman`)
+2. `cd` into the theme's directory
+3. Run `script/bootstrap` to install the necessary dependencies
+4. Run `bundle exec jekyll serve` to start the preview server
+5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
 
--   Accessible computational design
+### Running tests
 
--   Digital fabrication toolkits
-
--   Scalable manufacturing processes for soft wearables
-
--   Generalizable sensing and actuation interfaces
-
--   Applied machine learning for wearables
-
--   Multi-function multimodal wearable ecosystems
-
--   Evaluating large-scale and long-term deployment
-
--   Personalization VS generic one-for-all wearables
-
--   Miniaturization for conformability
-
-
-## Schedule Details
-
-### Opening Session (15 min)
-
-The workshop will commence with a brief welcome session to introduce the
-agenda and objectives for the day.
-
-### Keynotes (1 hour)
-
-In the morning, we plan to invite 2 keynote speakers in the field to
-present for 30 minutes. They will talk about insights into the latest
-advancements and future trends in intelligent soft wearables. The
-keynotes will provide some background information for interactive
-discussion and panels in the afternoon.
-
-### Coffee break (30 min)
-
-### Panel Discussion (1 hour 15 min)
-
-To prepare for a group discussion on challenges and opportunities of
-intelligent wearables, organizers will invite a panel of 3-5 experts in
-the fields. During the panel session, participants will be encouraged to
-engage actively with the panelists. They will have the opportunity to
-explore in-depth the challenges and opportunities previously identified
-during group discussions. Organizers will moderate this dialogue by
-collecting questions from participants in advance through Slido,
-ensuring that the session addresses the most pressing issues and
-interests of the audience. By leveraging the expertise of the panelists
-and the input from attendees, the session aims to generate valuable
-discussions and actionable strategies for advancing the field of
-intelligent wearables.
-
-### Lunch break (1 hour 30 min)
-
-### Spotlight and Demo Session (1 hour 30 min)
-
-To prepare for this session, we will invite submissions of interactive
-demos from a diverse HCI community. During the session, participants
-will briefly introduce themselves, present their interests, and showcase
-their demo through a spotlight/lightning talk. After that, participants
-will be divided into subgroups for interactive demos. During these
-subgroup demo sessions, participants will present and demo their
-hardware or software prototypes, discuss the design process, and share
-any insights that arose during development. General attendees are
-encouraged to join any subgroup session to engage in discussion and
-explore the showcased demos. This format aims to promote collaboration,
-inspire new ideas, and facilitate networking among researchers,
-designers, and practitioners in the HCI field.
-
-### Coffee break (30 min)
-
-### Group Discussion on Challenges and Opportunities (1 hour)
-
-Participants will be divided into subgroups and engage in a
-collaborative discussion to identify and analyze the major challenges
-and opportunities in democratizing intelligent wearables. This session
-will facilitate the exchange of ideas and experiences from various
-perspectives. Organizers will provide example discussion topics and
-research questions that touch upon critical aspects of democratization.
-Building on the previous keynotes, this session will then focus on
-exploring opportunities and potential solutions in the design,
-fabrication, and computational aspects of intelligent wearables.
-
-### Closing Session (30 min)
-
-The workshop will conclude with a summary of key takeaways and a
-discussion of the next steps for fostering ongoing collaboration and
-innovation in the field of intelligent soft wearables.
-
-## Call for Participation
-
-We invite participants and interactive demos from the UIST community who
-are experienced in or interested in the democratization of intelligent
-soft wearables, from design and fabrication of various applications. We
-particularly welcome researchers, designers, and practitioners in
-digital fabrication, wearables, toolkit development, embedded AI,
-computational sensing, and personalized modeling. We will advertise for
-participation not only within the UIST community but also within
-human-robot interaction and other AI venues.
-
-
-## References
-
-[1] Laura Devendorf, Joanne Lo, Noura Howell, Jung Lin Lee, Nan-Wei Gong, M Emre Karagozler, Shiho Fukuhara, Ivan Poupyrev, Eric Paulos, and Kimiko Ryokai. 2016. " I don't Want to Wear a Screen" Probing Perceptions of and Possibilities for Dynamic Displays on Clothing. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 6028–6039. 
-
-[2] Nathan Devrio and Chris Harrison. 2022. DiscoBand: Multiview Depth-Sensing Smartwatch Strap for Hand, Body and Environment Tracking. In Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology. 1–13. 
-
-[3] Maurin Donneaud, Cedric Honnet, and Paul Strohmeier. 2017. Designing a Multi-Touch eTextile for Music Performances. In Proceedings of the International Conference on New Interfaces for Musical Expression. 
-
-[4] Zhu et al.2024. PortaChrome: A Portable Contact Light Source for Integrated Re-Programmable Multi-Color Textures. In Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology. 
-
-[5] Jack Forman, Ozgun Kilic-Afsar, Sarah Nicita, Rosalie Hsin-Ju Lin, Liu Yang, Megan Hofmann, Akshay Kothakonda, Zachary Gordon, Cedric Honnet, Kristen Dorsey, Neil Gershenfeld, and Hiroshi Ishii. 2023. FibeRobo: Fabricating 4D Fiber Interfaces by Continuous Drawing of Temperature Tunable Liquid Crystal Elastomers. In Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology(UIST ’23). Association for Computing Machinery.
-
-[6] Rachel Freire, Cedric Honnet, and Paul Strohmeier. 2017. Second Skin: An Exploration of eTextile Stretch Circuits on the Body. In Proceedings of the Eleventh International Conference on Tangible, Embedded, and Embodied Interaction. 653–658. 
-
-[7] Cédric Honnet and Gonçalo Lopes. 2019. HiveTracker: 3D positioning for ubiquitous embedded systems. In Adjunct Proceedings of the 2019 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2019 ACM International Symposium on Wearable Computers. 288–291. 
-
-[8] Cedric Honnet, Hannah Perner-Wilson, Marc Teyssier, Bruno Fruchard, Jürgen Steimle, Ana C. Baptista, and Paul Strohmeier. 2020. PolySense: Augmenting Textiles with Electrical Functionality Using In-Situ Polymerization. Association for Computing Machinery, New York, NY, USA, 1–13.
-
-[9] Ozgun Kilic Afsar, Ali Shtarbanov, Hila Mor, Ken Nakagaki, Jack Forman, Karen Modrei, Seung Hee Jeong, Klas Hjort, Kristina Höök, and Hiroshi Ishii. 2021. OmniFiber: Integrated fluidic fiber actuators for weaving movement based interactions into the ‘fabric of everyday life’. In The 34th Annual ACM Symposium on User Interface Software and Technology. 1010–1026. 
-
-[10] Daehwa Kim and Chris Harrison. 2022. EtherPose: Continuous hand pose tracking with wrist-worn antenna impedance characteristic sensing. In Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology. 1–12. 
-
-[11] Jin Hee Kim, Joan Stilling, Michael O'Dell, and Cindy Hsin-Liu Kao. 2023. Knitdema: robotic textile as personalized edema mobilization device. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems. 1–19. 
-
-[12] Pedro Lopes, Alexandra Ion, and Patrick Baudisch. 2015. Impacto: Simulating physical impact by combining tactile stimulation with electrical muscle stimulation. In Proceedings of the 28th annual ACM symposium on user interface software & technology. 11–19. 
-
-[13] Yiyue Luo, Yunzhu Li, Pratyusha Sharma, Wan Shou, Kui Wu, Michael Foshey, Beichen Li, Tomás Palacios, Antonio Torralba, and Wojciech Matusik. 2021. Learning human–environment interactions using conformal tactile textiles. Nature Electronics 4, 3 (2021), 193–201. 
-
-[14] Yiyue Luo, Kui Wu, Andrew Spielberg, Michael Foshey, Daniela Rus, Tomás Palacios, and Wojciech Matusik. 2022. Digital fabrication of pneumatic actuators with integrated sensing by machine knitting. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems. 1–13. 
-
-[15] Eric Markvicka, Guanyun Wang, Yi-Chin Lee, Gierad Laput, Carmel Majidi, and Lining Yao. 2019. Electrodermis: Fully untethered, stretchable, and highly-customizable electronic bandages. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 1–10. 
-
-[16] Alex Olwal, Jon Moeller, Greg Priest-Dorman, Thad Starner, and Ben Carroll. 2018. I/O Braid: Scalable touch-sensitive lighted cords using spiraling, repeating sensing textiles and fiber optics. In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology. 485–497. 
-
-[17] Patrick Parzer, Adwait Sharma, Anita Vogl, Jürgen Steimle, Alex Olwal, and Michael Haller. 2017. SmartSleeve: real-time sensing of surface and deformation gestures on flexible, interactive textiles, using a hybrid gesture detection pipeline. In Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology. 565–577. 
-
-[18] Syamantak Payra, Irmandy Wicaksono, Juliana Cherston, Cedric Honnet, Valentina Sumini, and Joseph A Paradiso. 2021. Feeling through spacesuits: Application of space-resilient E-Textiles to enable haptic feedback on pressurized extravehicular suits. In 2021 IEEE Aerospace Conference (50100). IEEE, 1–12. 
-
-[19] Ivan Poupyrev, Nan-Wei Gong, Shiho Fukuhara, Mustafa Emre Karagozler, Carsten Schwesig, and Karen E Robinson. 2016. Project Jacquard: interactive digital textiles at scale. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 4216–4227. 
-
-[20] Thomas Preindl, Cedric Honnet, Andreas Pointner, Roland Aigner, Joseph A Paradiso, and Michael Haller. 2020. Sonoflex: Embroidered speakers without permanent magnets. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology. 675–685. 
-
-[21] Jun Rekimoto. 2001. Gesturewrist and gesturepad: Unobtrusive wearable interaction devices. In Proceedings Fifth International Symposium on Wearable Computers. IEEE, 21–27. 
-
-[22] Vivian Shen, Tucker Rae-Grant, Joe Mullenbach, Chris Harrison, and Craig Shultz. 2023. Fluid reality: High-resolution, untethered haptic gloves using electroosmotic pump arrays. In Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology. 1–20. 
-
-[23] Zilin Si, Tianhong Catherine Yu, Katrene Morozov, James McCann, and Wenzhen Yuan. 2023. RobotSweater: scalable, generalizable, and customizable machine-knitted tactile skins for robots. In 2023 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 10352–10358. 
-
-[24] Paul Strohmeier, Cedric Honnet, and Samppa Von Cyborg. 2016. Developing an ecosystem for interactive electronic implants. In Biomimetic and Biohybrid Systems: 5th International Conference, Living Machines 2016, Edinburgh, UK, July 19-22, 2016. Proceedings 5. Springer, 518–525. 
-
-[25] Gabriela Vega, Valentin Martinez-Missir, Dennis Wittchen, Nihar Sabnis, Audrey Girouard, Karen Anne Cochrane, and Paul Strohmeier. 2024. vARitouch: Back of the Finger Device for Adding Variable Compliance to Rigid Objects. In Proceedings of the CHI Conference on Human Factors in Computing Systems. 1–20. 
-
-[26] Nicolas Villar, Daniel Cletheroe, Greg Saul, Christian Holz, Tim Regan, Oscar Salandin, Misha Sra, Hui-Shyong Yeo, William Field, and Haiyan Zhang. 2018. Project zanzibar: A portable and flexible tangible interaction platform. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1–13. 
-
-[27] Irmandy Wicaksono, Peter G Hwang, Samir Droubi, Franny Xi Wu, Allison N Serio, Wei Yan, and Joseph A Paradiso. 2022. 3dknits: Three-dimensional digital knitting of intelligent textile sensor for activity recognition and biomechanical monitoring. In 2022 44th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC). IEEE, 2403–2409. 
-
-[28] Irmandy Wicaksono and Joseph A Paradiso. 2017. Fabrickeyboard: multimodal textile sensate media as an expressive and deformable musical interface.. In NIME, Vol. 17. 348–353. 
-
-[29] Tianhong Catherine Yu, Riku Arakawa, James McCann, and Mayank Goel. 2023. uKnit: A Position-Aware Reconfigurable Machine-Knitted Wearable for Gestural Interaction and Passive Sensing using Electrical Impedance Tomography. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems. 1–17. 
-
-[30] Bo Zhou, Daniel Geissler, Marc Faulhaber, Clara Elisabeth Gleiss, Esther Friederike Zahn, Lala Shakti Swarup Ray, David Gamarra, Vitor Fortes Rey, Sungho Suh, Sizhen Bian, et al. 2023. Mocapose: Motion capturing with textile-integrated capacitive sensors in loose-fitting smart garments. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 7, 1 (2023), 1–40.
-
-
-
-<hr/>
-
-
-## Cite the paper ([PDF](https://honnet.github.io/publications/UIST24-SoftWearables.pdf)):
-
-    Cedric Honnet, Catherine Yu, Irmandy Wicaksono, Tingyu Cheng, Andreea Danielescu, Cheng Zhang, Stefanie Mueller, Joe Paradiso, Yiyue Luo.
-    "Democratizing Intelligent Soft Wearables."
-    In Proceedings of UIST 2024, https://doi.org/10.1145/3672539.3686707
-
-LaTex:
-
-    @inproceedings{UIST24_SoftWearables,
-      title={Democratizing Intelligent Soft Wearables},
-      author={Honnet, Cedric and Yu, Catherine and Wicaksono, Irmandy and Cheng, Tingyu and Danielescu, Andreea and Zhang, Cheng and Mueller, Stefanie and Paradiso, Joe and Luo, Yiyue},
-      booktitle={In Proceedings of UIST 2024},
-      year={2024},
-      url={https://doi.org/10.1145/3672539.3686707},
-    }
+The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` once before the test script will work.
