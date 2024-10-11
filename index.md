@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+
 
 # About our workshop
 
@@ -48,9 +48,23 @@ We invite potential participants to share 1-3 relevant technologies or experienc
 |16:00 - 17:00	|Closing Discussion|
 
 # Organizers
-## Paul Strohmeier (Max Planck Institute for Informatics, Germany)
+**Paul Strohmeier** leads the Sensorimotor Interaction group (senSInt)
+at the Max Planck Institute for Informatics. His PhD work on designing Vibrotactile Feedback for Active Perception was honored with the SIGCHI Outstanding Dissertation Award. His research focuses
+on tactile and kinesthetic perception, sensory augmentation, and
+on-body systems. Paul has co-hosted 8 events at ACM conferences (Workshops, Studios and SIGs) many of which are directly related to this proposal. Paul has also been instrumental in ensuring that such events have tangible outcomes, for example in the form of follow up workshops, and academic papers.
 
+**Alex Mazursky** is a PhD student in the Department of Computer Science at the University of Chicago, where he designs wearable devices that provide tactile feedback (touch sensations), transforming otherwise passive objects and surfaces into interactive experiences. He specializes in engineering haptic actuators from the ground up, and integrating actuators into custom devices that create diverse sensations—such as vibration, friction, pressure, and temperature—to augment physical and virtual spaces (AR/VR).
 
-![paul_stromeier](https://sensint.mpi-inf.mpg.de/uploads/people/paul_glove_square.jpg)
+**Laia Turmo Vidal** is a Digital Futures Research Fellow at KTH Royal Institute of Technology, Sweden. Laia's work explores sensorimotor transformations facilitated by wearables and bio-responsive technologies, with the aim to create interactive experiences that are conducive to individual and collective care, health and wellbeing. Laia has facilitated body- and movement-centered design workshops at recent CHI, DIS, and IEEE World Haptics.
+
+**Courtney N. Reed** is a musician, performer, and postdoctoral researcher in the Sensorimotor Interaction Group at the Max Planck Institute for Informatics. Her work explores the dynamics of agency and control between human and body through vocal performance. She designs biosignal-based wearables for augmented singing and communication between musicians and musical bodies, and is interested in first-person methodologies and micro-phenomenology.
+
+**Ana Tajadura-Jiménez** is an Associate Professor in the DEI Interactive Systems Group at Universidad Carlos III de Madrid, and an Honorary Research Fellow at the University College London Interaction Center. She leads the i\_mBODY lab (www.imbodylab.com), which focuses on interactive multisensory body-centered experiences at the intersection of HCI and neuroscience. She is currently the Principal Investigator of the ERC-funded BODYinTRANSIT project, which explores the design of sensory technologies to alter body perceptions and promote positive changes in emotional and physical health in populations with body-related concerns. She has organized workshops in this space.
+
+**Jürgen Steimle** is a Professor at Saarland University where he leads the Human-Computer Interaction Lab. Previously he was Senior Researcher at the Max Planck Institute for Informatics and Visiting Assistant Professor at the MIT Media Lab. He holds a PhD in Computer Science from TU Darmstadt. Jürgen specializes in body-based interfaces that are soft and deformable just like the human body, to offer novel opportunities for rich and expressive multi-sensory interaction. He is recipient of an ERC Starting Grant and his work on body-based interfaces has received Best Paper Awards at CHI and UIST. 
+
+**Easa AliAbbasi** is a postdoctoral researcher in the Sensorimotor Interaction Group at the Max Planck Institute for Informatics, where his research focuses on understanding human tactile perception and developing tactile displays to convey sensory information to users. During his PhD studies, he investigated the electro-mechanical interactions between human fingers and voltage-induced touchscreens under electroadhesion. His broader research interests span haptics, Human-Computer Interaction (HCI), and mechatronic systems.
+
+**Gabriela Vega** is a master's student in Media Informatics at Saarland University and research assistant in the Sensorimotor Interaction Group at the Max Planck Institute for Informatics, where her research focuses on developing wearables for Tactile AR and texture design. She is interested in human-computer interaction, haptics, AR, and tangibles for human augmentation and well-being.
 
 
