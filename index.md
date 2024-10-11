@@ -2,7 +2,7 @@
 layout: default
 ---
 
-
+Keywords: sensorimotor interaction, wearables, feedback systems, motion-coupled feedback
 
 # About our workshop
 
