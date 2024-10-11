@@ -9,6 +9,16 @@ Keywords: sensorimotor interaction, wearables, feedback systems, motion-coupled 
 An emerging space in interfaces research are wearable devices that closely couple their sensing and actuation abilities. A well-known example is MetaLimbs, where sensed movements of the foot are directly mapped to the actuation of supernumerary robotic limbs. These systems are different from wearables focused on sensing, such as fitness trackers, or wearables focused on actuation, such as VR headsets. They are characterized by tight coupling between the user's action and the resulting digital feedback from the device, in time, space, and mode. The properties of this coupling are critical for the user's experience, including the user's sense of agency, body ownership, and experience of the surrounding world. Understanding such systems is an open challenge, which requires knowledge not only of computer science and HCI, but also Psychology, Physiology, Design, Engineering, Cognitive Neuroscience, and Control Theory. 
 **This workshop aims to foster discussion between these diverse disciplines and to identify links and synergies in their work, ultimately developing a common understanding of future research directions for systems that intrinsically couple sensing and action.**
 
+# Objectives & Outcomes
+We aim to achieve the following objectives and tangible outcomes:
+
+* Create a coherent outline of relevant artifacts, systems, and interfaces that successfully instantiate a close coupling between sensing and actuation to augment bodily experience (e.g., wearable and tangible interfaces, haptics, e-textiles), documenting these examples in an online collection similar to Haptipedia (https://haptipedia.org/).
+* Identify common elements of experience, agency and control, and comprehensive understanding of the opportunities opened up by coupling sensing and action to augment the bodily experience.
+* Generate a set of open research questions to be addressed in future work, creating research opportunities within a 5- and 50-year horizon
+* Share theoretical methodological grounding between multi- and inter-disciplinary work, drawing on the diverse backgrounds of the community to outline a shared "success" criteria.
+* Solidify a community, involving the creation of a special interest group, around sensorimotor devices to support researchers at various points in their careers in pursuing and contextualizing this work.
+
+
 # Call for Participation
 
 An emerging research direction are wearable systems in which sensing and actuation are synchronous, co-located, of the same mode, and with a temporal behavior, enabling integration with the user’s sensory and motor abilities. Such coupling opens exciting new opportunities for user experience, agency, and body ownership.
