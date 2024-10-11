@@ -2,7 +2,8 @@
 layout: default
 ---
 
-# About our workshop
+
+# About ourxx workshop
 
 An emerging space in interfaces research are wearable devices that closely couple their sensing and actuation abilities. A well-known example is MetaLimbs, where sensed movements of the foot are directly mapped to the actuation of supernumerary robotic limbs. These systems are different from wearables focused on sensing, such as fitness trackers, or wearables focused on actuation, such as VR headsets. They are characterized by tight coupling between the user's action and the resulting digital feedback from the device, in time, space, and mode. The properties of this coupling are critical for the user's experience, including the user's sense of agency, body ownership, and experience of the surrounding world. Understanding such systems is an open challenge, which requires knowledge not only of computer science and HCI, but also Psychology, Physiology, Design, Engineering, Cognitive Neuroscience, and Control Theory. 
 **This workshop aims to foster discussion between these diverse disciplines and to identify links and synergies in their work, ultimately developing a common understanding of future research directions for systems that intrinsically couple sensing and action.**
