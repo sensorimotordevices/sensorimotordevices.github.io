@@ -42,4 +42,4 @@ Associate Professor in the DEI Interactive Systems Group at Universidad Carlos I
 
 Professor at Saarland University where he leads the Human-Computer Interaction Lab. Previously he was Senior Researcher at the MPI-INF and Visiting Assistant Professor at the MIT Media Lab. He holds a PhD in Computer Science from TU Darmstadt. Jürgen specializes in body-based interfaces that are soft and deformable, to offer novel opportunities for rich and expressive multi-sensory interaction. He is recipient of an ERC Starting Grant and his work on body-based interfaces has received Best Paper Awards at CHI and UIST. 
 
-[back](./)
+[back](../)

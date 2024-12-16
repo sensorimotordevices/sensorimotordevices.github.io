@@ -42,4 +42,4 @@ The outcome of the workshop will be documented to share either in the form of a 
 
 We also intend the workshop to support creating a community of researchers interested in sensorimotor interaction that extends beyond the workshop itself. For this purpose a proposal for a SIG will be submitted to CHI 2025. To foster community beyond the conference, we will create a dedicated online space (e.g., Discord community or Slack group) open to those who wish to participate, with the aim of having a shared space where discussions and collaborations can continue beyond the workshop and flourish. Finally, should we find interest from the broader community, we intend to follow up with a dedicated [Dagstuhl Seminar](https://www.dagstuhl.de/de/seminars/dagstuhl-seminars). 
 
-[back](./)
+[back](../)
