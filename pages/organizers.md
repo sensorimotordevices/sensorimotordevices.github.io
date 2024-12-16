@@ -5,7 +5,7 @@ title: Organizers
 #### Paul Strohmeier [🔗](https://sensint.mpi-inf.mpg.de/index.html)
 <img src="./photos/paul.png" alt="paul" width="200"/>
 
-Leads the Sensorimotor Interaction group (senSInt) at the Max Planck Institute for Informatics (MPI-INF). His PhD work was honored with the SIGCHI Outstanding Dissertation Award. He has recently received an ERC Starting Grant for conducting research on kinesthetic perception, sensory augmentation, and on-body systems. Paul has co-hosted 8 events at ACM conferences (Workshops, Studios and SIGs) many of which are directly related to this proposal. Paul has also been instrumental in ensuring that such events have tangible outcomes.
+Leads the Sensorimotor Interaction group (senSInt) at the Max Planck Institute for Informatics (MPI-INF). His PhD work was honored with the SIGCHI Outstanding Dissertation Award. He has recently received an ERC Starting Grant for conducting research on kinesthetic perception, sensory augmentation, and on-body systems.
 
 #### Laia Turmo Vidal [🔗](https://www.laiaturmovidal.com/)
 <img src="./photos/laia.jpg" alt="paul" width="200"/>
