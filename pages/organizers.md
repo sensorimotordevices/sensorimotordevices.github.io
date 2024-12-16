@@ -1,11 +1,8 @@
 ---
 layout: simple
-title: Submission / HTML Format
+title: Organizers
 description: This is the submission
 ---
-
-# Organizers
-
 #### Paul Strohmeier [🔗](https://sensint.mpi-inf.mpg.de/index.html)
 <img src="./photos/paul.png" alt="paul" width="200"/>
 
