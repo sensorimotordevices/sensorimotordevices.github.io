@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: simple
 title: Submission / HTML Format
 description: This is the submission
 ---
