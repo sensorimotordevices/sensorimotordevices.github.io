@@ -1,7 +1,6 @@
 ---
 layout: simple
 title: Organizers
-description: This is the submission
 ---
 #### Paul Strohmeier [🔗](https://sensint.mpi-inf.mpg.de/index.html)
 <img src="./photos/paul.png" alt="paul" width="200"/>
