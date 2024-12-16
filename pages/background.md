@@ -64,4 +64,4 @@ We identify four areas with new design postulates:
 - Share theoretical methodological grounding between multi- and inter-disciplinary work, drawing on the diverse backgrounds of the community to outline a shared "success" criteria.
 - Solidify a community, involving the creation of a special interest group, around sensorimotor devices to support researchers at various points in their careers in pursuing and contextualizing this work.
 
-[back](./)
+[back](../)
