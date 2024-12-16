@@ -4,8 +4,6 @@ layout: default
 
 Welcome to our **Sensorimotor Devices Workshop** 🦾 — a pioneering space where technology meets human experience!  
 
-_keywords: sensorimotor interaction, wearables, feedback systems, motion-coupled feedback_
-
 # Mission
 
 An emerging space in interface research is wearable devices that closely couple their sensing and actuation abilities. A well-known example is [MetaLimbs](https://dl.acm.org/doi/10.1145/3084822.3084837), where sensed movements of the foot are directly mapped to the actuation of supernumerary robotic limbs. These systems are different from wearables focused on sensing, such as fitness trackers, or wearables focused on actuation, such as VR headsets. They are characterized by tight coupling between the user's action and the resulting digital feedback from the device, in time, space, and mode. The properties of this coupling are critical for the user's experience, including the user's sense of agency, body ownership, and experience of the surrounding world.
