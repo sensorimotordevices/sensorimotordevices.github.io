@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Welcome to our **Sensorimotor Devices Workshop** — a pioneering space where technology meets human experience!  
+Welcome to our **Sensorimotor Devices Workshop** 🦾 — a pioneering space where technology meets human experience!  
 
 _keywords: sensorimotor interaction, wearables, feedback systems, motion-coupled feedback_
 
