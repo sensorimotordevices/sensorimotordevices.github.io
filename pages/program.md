@@ -10,6 +10,8 @@ We aim to draw attendance from diverse backgrounds (HCI, psychology, engineering
 Prior to the workshop, participants and organizers will arrange each accepted submission together on a Miro board, where submissions will be clustered according to the topic themes (we anticipate themes of Agency, Self-Experience, World-Experience, and Control, among others that may emerge through discourse). We will form interest groups around these themes, which we will use for breakout discussions during the workshop. We will distribute the papers among participants and publicly on the workshop website. We will ask participants to familiarize themselves with all the papers and encourage them to add to the Miro board even before the workshop. 
 
 # Workshop
+
+
 | Time            | Event                       |  
 |---------------------|-------------------------------|  
 | **09:00–09:15**    | Introduction & Welcome        |  
