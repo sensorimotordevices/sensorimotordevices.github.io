@@ -1,5 +1,5 @@
 ---
-layout: simple
+layout: default
 title: Organizers
 ---
 #### Paul Strohmeier [🔗](https://sensint.mpi-inf.mpg.de/index.html)
