@@ -28,7 +28,7 @@ Musician, performer, and assistant professor in the Institute for Digital Techno
 PhD student in the Department of Computer Science at the University of Chicago, where he designs wearable devices that provide tactile feedback, transforming otherwise passive objects and surfaces into interactive experiences. He engineers haptic actuators from the ground up, integrating actuators into custom devices that create diverse sensations—such as vibration, friction, pressure, and temperature—to augment physical and virtual spaces.
 
 #### Easa AliAbbasi [🔗](https://de.linkedin.com/in/easa-aliabbasi)
-<img src="./photos/easa.png" alt="paul" width="200"/>
+<img src="./photos/Easa1.jpg" alt="paul" width="200"/>
 
 Postdoctoral researcher in the Sensorimotor Interaction Group at MPI-INF, where his research focuses on understanding human tactile perception and developing tactile displays to convey sensory information. During his PhD studies, he investigated the electro-mechanical interactions between human fingers and voltage-induced touchscreens under electroadhesion.
 
