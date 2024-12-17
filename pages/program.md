@@ -2,13 +2,6 @@
 layout: default
 title: Program
 ---
-# Pre-Workshop
-The workshop's Call for Participation will be shared via mailing lists (e.g., ACM SIGCHI, UIST, Augmented Humans, NIME, etc.) to researchers in HCI, engineering, psychology, and related areas. Moreover, the organizers will leverage their extensive networks of experts to ensure that people in key communities are made aware of it. All workshop information will be easily accessible via our [workshop's website](https://sensorimotordevices.github.io), which will also include the complete program and accepted submissions as well as notes, sketches, and takeaways after the workshop.
-
-We aim to draw attendance from diverse backgrounds (HCI, psychology, engineering, etc.) to facilitate discussion that identifies links across disciplines. Potential participants will be invited to submit a position paper (2-4 pages, following the ACM Template), in which they will describe one or multiple technologies, experiences, or experiments that explore closely coupled sensing and actuation; and 1-2 discussion points in relation to the four topic areas we propose. Submissions will be reviewed by the workshop organizing committee. A total of up to 15-20 participants will be invited to participate in the workshop based on their submissions. 
-
-Prior to the workshop, participants and organizers will arrange each accepted submission together on a Miro board, where submissions will be clustered according to the topic themes (we anticipate themes of Agency, Self-Experience, World-Experience, and Control, among others that may emerge through discourse). We will form interest groups around these themes, which we will use for breakout discussions during the workshop. We will distribute the papers among participants and publicly on the workshop website. We will ask participants to familiarize themselves with all the papers and encourage them to add to the Miro board even before the workshop. 
-
 # Workshop
 
 
