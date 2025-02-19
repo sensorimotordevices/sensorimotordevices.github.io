@@ -31,10 +31,11 @@ The submission button can be found at the top of this page.
 
 
 ## Important dates
+Due to extension requests, we have decided to update the submission deadline. If you have any question or request, please contact Paul Strohmeier (pastrohm@mpi-inf.mpg.de).
 
-> Submission deadline: February 13, 2025 AoE
+> Submission deadline: February 20, 2025 AoE ~~February 13, 2025 AoE~~
 > 
-> Notification: March 10, 2025 AoE
+> Notification: March 15, 2025 AoE ~~March 10, 2025 AoE~~
 
 
 
